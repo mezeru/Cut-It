@@ -12,13 +12,13 @@ const { dialog ,Menu } = remote;
 
 start.onclick = e => {
     mediaRecorder.start();
-    start.classList.add('is-danger');
+    start.classList.add('is-warning');
     start.innerText = 'Recording';
   };
 
 stop.onclick = e =>{
     mediaRecorder.stop();
-    start.classList.remove('is-danger');
+    start.classList.remove('is-warning');
     start.innerText = 'Start';
 }
 
