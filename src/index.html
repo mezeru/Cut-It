@@ -2,11 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Cut It</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div class="container">
+      <h1>CUT IT Screen Recorder</h1>
+
+      <video>
+
+      </video>
+
+      <div class="buttons">
+        <button id="start" class="button is-primary">Start</button>
+        <button id="stop" class="button is-danger">Stop</button>
+      </div>
+
+      </hr>
+
+      <button id="select-source" class="button is-text" >Select Screen Window</button>
+
+    </div>
   </body>
+  <script src="./render.js"></script>
 </html>

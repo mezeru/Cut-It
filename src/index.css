@@ -4,3 +4,11 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center
+}
+
