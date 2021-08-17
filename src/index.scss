@@ -2,11 +2,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: auto;
   padding: 0rem;
-  height: 120vh;
+  height: 150vh;
   background-color: black
 }
 
 .container{
+  background-color: black;
   padding-top: 1%;
   display:flex;
   flex-direction: column;
